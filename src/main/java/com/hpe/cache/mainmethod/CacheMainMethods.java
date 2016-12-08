@@ -17,7 +17,7 @@ public class CacheMainMethods {
 public static DynamicCache dc= new DynamicCache(2);
  public static StaticCache s= new StaticCache(5);
  public static FifoCache fc= new FifoCache(6);
- public static LRUCache lc=new LRUCache(6);
+ public static LRUCache lc=new LRUCache(6)
  static int key,ch;
 	static	String value;
 	static	boolean flag;
